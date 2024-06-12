@@ -5,6 +5,7 @@ import User_Register from './components/Homepage/User_Register.js';
 import Parkin_Register from './components/Homepage/Parking_Register.js';
 import SignIn from './components/Loginpage/SignIn.js';
 import Home from './components/Home.js';
+import Profile from './components/ParkinProfile/Profile.js';
 
 // Componente que contiene las rutas
 function AppRoutes() {
