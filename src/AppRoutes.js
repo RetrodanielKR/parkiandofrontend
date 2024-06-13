@@ -6,6 +6,7 @@ import Parkin_Register from './components/Homepage/Parking_Register.js';
 import SignIn from './components/Loginpage/SignIn.js';
 import Home from './components/Home.js';
 import Profile from './components/ParkinProfile/Profile.js';
+import CommentBox from './components/Comentarios/commentBox.jsx';
 
 // Componente que contiene las rutas
 function AppRoutes() {
@@ -18,6 +19,8 @@ function AppRoutes() {
           <Route path="/parking_register" element={<Parkin_Register />} />
           <Route path="/signin" element={<SignIn />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/Profile.js" element={<Profile />} />
+          <Route path="/commentBox" element={<CommentBox />} /> 
         </Routes>
       </div>
     </Router>
